@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  NAVBAR  */
+
+.navigation-box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    color: white;
+    padding: 2rem 0;
+}
+
+.link-nav ul{
+    display: flex;
+}
+
+.link-nav ul li{
+    list-style: none;
+    margin: 1rem 2rem;
+    font-size: 1.4rem;
+}
+
+.link-nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: .5rem;
+}
+
+.link-nav ul li a:hover{
+    border-bottom: 2px solid #ffb604;
+    transition: all .3s;
+}
+
+/*  HEADER  */
+
+header{
+    background: url("/Images/bg-img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0 38rem;
+}
+
+.box-text{
+    padding-top: 30rem;
+    color: white;
+    margin-bottom: 30rem;
+}
+
+.box-text h3{
+    font-size: 2.5rem;
+}
+
+.box-text h1{
+    font-size: 11rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.box-text button{
+    padding: 1.2rem 3rem;
+    background: #ffb604;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.card-header{
+    display: flex;
+}
+
+.card-h{
+    height: 15rem;
+    width: 40rem;
+    background: rgba(0,0,0,.6);
+    display: flex;
+    align-items: center;
+    padding: 3.5rem;
+    color: white;
+    margin: 0 .5rem;
+}
+
+.card-text{
+    display: flex;
+    align-items: center;
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-text img{
+    margin-right: 6rem;
+}
+
+.card-h h5{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.card-h h5 a{
+    text-decoration: none;
+    color: #ffb604;
+}
