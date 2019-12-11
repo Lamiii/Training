@@ -1,0 +1,66 @@
+
+    RESSOURCES
+    ---------------------------------
+
+    Index
+        première-league
+            - background-color : #37003a
+            - background-color button : #fa025c
+            - background-color text : #fff
+
+        liga
+            - background-color : #fff
+            - background-color button : #003372
+            - background-color text : #003372
+
+    première league page
+        {
+            - background-color header : #dac4e4
+            - title text-color : #3f0e52
+            - link-color: #36d1d1
+
+            - gradient-overlay
+                {
+                    chelsea : linear-gradient(#3a6dd36e,#3a6dd36e)
+                    liverpool : linear-gradient(#8b1d286e,#8b1d286e)
+                    Wolverhampton : linear-gradient(#deae026e,#deae026e)
+                    manchester united : linear-gradient(#a107176e,#a107176e)
+                    manchester city : linear-gradient(#03496f6e,#03496f6e)
+                    Tottenham : linear-gradient(#00a7a76e,#00a7a76e)
+                }
+        }
+    
+    liga page
+        {
+            - background-color header : #acbed4
+            - title text-color : #003372
+            - link-color : #36d1d1
+
+            - gradient-overlay
+                {
+                    Barcelone : linear-gradient(#a107176e,#a107176e)
+                    Réal madrid : linear-gradient(#00a7a76e,#00a7a76e)
+                    Atlético de madrid : inear-gradient(#a107176e,#a107176e)
+                    seville : inear-gradient(#a107176e,#a107176e)
+                    valence : inear-gradient(#03496f6e,#03496f6e)
+                    getafe : linear-gradient(#03496f6e,#03496f6e)
+                }
+        }
+
+    sidebar
+        {
+            - sidebar-link-color : #36d1d1
+            - width : 260px
+            - divider color 
+                {
+                    - première league : #3f0e52
+                    - liga : #003372
+                }
+        }
+
+    
+
+    card
+        - box-shadow: 0 2px 20px 0 rgba(0,0,0,.1)
+        - border-radius: 5px
+

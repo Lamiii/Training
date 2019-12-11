@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'lato', 'sans-serif';
+}
+
+/*******INDEX*******/
+
+#Big-box{
+    display: flex; 
+}
+
+/*Block1*/
+
+.block1{
+    width: 50%;
+    background-color : #37003a;
+}
+
+.contain-block1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.horizontal-line{
+    height: 1px;
+    width: 10rem;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 1rem
+}
+
+.contain-block1 p{
+    color: white;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bold
+}
+
+.contain-block1 button{
+    padding: .8rem 1rem;
+    background-color: #fa025c;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: .3rem;
+    font-weight: bold;
+    cursor: pointer
+}
+
+/*Block2*/
+
+.block2{
+    width: 50%;
+}
+
+.contain-block2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contain-block2 img, .contain-block1 img{
+    height: 30rem;
+}
+
+.horizontal-line2{
+    height: 1px;
+    width: 10rem;
+    background-color: grey;
+    margin: auto;
+    margin-bottom: 1rem
+}
+
+.contain-block2 p{
+    color: #003372;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bold
+}
+
+.contain-block2 button{
+    padding: .8rem 1rem;
+    background-color: #003372;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: .3rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (max-width: 750px){
+    #Big-box{
+        display: block;
+    }
+
+    .block1, .block2{
+        width: 100%
+    }
+
+    .contain-block1, .contain-block2{
+        height: 50vh;
+    }
+
+    .contain-block2 img, .contain-block1 img{
+        height: 18rem;
+    }   
+}
+
+@media screen and (max-width: 400px){
+    .contain-block2 img, .contain-block1 img{
+        height: 13rem;
+    }
+    .contain-block2 p, .contain-block1 p{
+        font-size: 1.5rem;
+        margin-bottom: 1rem
+    }
+}
+
+/*******PREMIER LEAGUE*******/
+
+.body-preleague{
+    padding: 4rem;
+}
+
+.header-preleague{
+    height: 55rem;
+    width: 100%;
+    background-color: #dac4e4;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem
+}
+
+.box-header img{
+    height: 18rem;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.section1 .horizontal-line3{
+    height: 3px;
+    width: 8rem;
+    background-color: #3f0e52;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: .3rem
+}
+
+.section1 h3{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #3f0e52;
+}
+
+.section1 p{
+    font-size: 1.5rem
+}
+
+.box-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .card-css{
+    width: 45rem;
+    min-height: 60rem;
+    box-shadow: 0 .2rem 2rem 0 rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: 2rem 1rem;
+    position: relative;
+}
+
+.card-css .img-card{
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    background-size: cover;
+    height: 30rem;
+}
+
+.img-card1{
+    background: linear-gradient(#3a6dd36e,#3a6dd36e), url('../img/premier-league/banner/chelsea-banner.jpg');
+}
+
+.img-card2{
+    background: linear-gradient(#8b1d286e,#8b1d286e), url('../img/premier-league/banner/liverpool-banner.jpg');
+}
+
+.img-card3{
+    background: linear-gradient(#a107176e,#a107176e), url('../img/premier-league/banner/united-banner.png');
+}
+
+.img-card4{
+    background: linear-gradient(#deae026e,#deae026e), url('../img/premier-league/banner/wolf-banner.jpg');
+}
+
+.img-card5{
+    background: linear-gradient(#03496f6e,#03496f6e), url('../img/premier-league/banner/city-banner.jpg');
+}
+
+.img-card6{
+    background: linear-gradient(#00a7a76e,#00a7a76e), url('../img/premier-league/banner/tottenham-banner.jpg');
+}
+
+.box-logoT{
+    position: absolute;
+    height: 8rem;
+    background: white;
+    top: 45%;
+    left: 1%
+}
+
+.logo-team{
+    height: 8rem;
+    
+}
+
+.text-card{
+    padding: 1.5rem
+}
+
+.card-css h2{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #3f0e52;
+}
+
+.card-css p{
+    font-size: 1.55rem;
+    line-height: 2.3rem;
+    margin-bottom: 3rem
+}
+
+.card-css a{
+    color: #36d1d1;
+    text-decoration: none;
+}
+
+.logo-social{
+    display: flex;
+}
+
+.box-logoS{
+    border-radius: 50%;
+    box-shadow: 0 .2rem 2rem 0 rgba(0,0,0,.1);
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo-social .imgS1{
+    height: 3rem;
+}
+
+.logo-social .imgS2{
+    height: 5rem;
+}
+
+.logo-social .imgS3{
+    height: 3rem;
+}
+
+
+/*******LIGA*******/
+
+
+.body-preleague{
+    padding: 4rem;
+}
+
+.header-liga{
+    height: 55rem;
+    width: 100%;
+    background-color: #acbed4;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem
+}
+
+.box-header img{
+    height: 18rem;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.section1 .horizontal-line3{
+    height: 3px;
+    width: 8rem;
+    background-color: #3f0e52;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: .3rem
+}
+
+.section1 h3{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #3f0e52;
+}
+
+.section1 p{
+    font-size: 1.5rem
+}
+
+.box-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .card-css{
+    width: 45rem;
+    min-height: 60rem;
+    box-shadow: 0 .2rem 2rem 0 rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: 2rem 1rem;
+    position: relative;
+}
+
+.card-css .img-card{
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    background-size: cover;
+    height: 30rem;
+}
+
+.img-liga-card1{
+    background: linear-gradient(#a107176e,#a107176e), url('../img/liga/banner/barca-banner.jpg');
+}
+
+.img-liga-card2{
+    background: linear-gradient(#00a7a76e,#00a7a76e), url('../img/liga/banner/real-banner.jpg');
+}
+
+.img-liga-card3{
+    background: linear-gradient(#a107176e,#a107176e), url('../img/premier-league/banner/united-banner.png');
+}
+
+.img-liga-card4{
+    background: linear-gradient(#deae026e,#deae026e), url('../img/premier-league/banner/wolf-banner.jpg');
+}
+
+.img-liga-card5{
+    background: linear-gradient(#03496f6e,#03496f6e), url('../img/premier-league/banner/city-banner.jpg');
+}
+
+.img-liga-card6{
+    background: linear-gradient(#00a7a76e,#00a7a76e), url('../img/premier-league/banner/tottenham-banner.jpg');
+}
+
+.box-logoT{
+    position: absolute;
+    height: 8rem;
+    background: white;
+    top: 45%;
+    left: 1%
+}
+
+.logo-team{
+    height: 7rem;
+    
+}
+
+.text-card{
+    padding: 1.5rem
+}
+
+.card-css h2{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #3f0e52;
+}
+
+.card-css p{
+    font-size: 1.55rem;
+    line-height: 2.3rem;
+    margin-bottom: 3rem
+}
+
+.card-css a{
+    color: #36d1d1;
+    text-decoration: none;
+}
+
+.logo-social{
+    display: flex;
+}
+
+.box-logoS{
+    border-radius: 50%;
+    box-shadow: 0 .2rem 2rem 0 rgba(0,0,0,.1);
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo-social .imgS1{
+    height: 3rem;
+}
+
+.logo-social .imgS2{
+    height: 5rem;
+}
+
+.logo-social .imgS3{
+    height: 3rem;
+}
