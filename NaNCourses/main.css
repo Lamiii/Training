@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit
+}
+
+html{
+    font-size: 62.5%
+}
+
+body{
+    box-sizing: border-box;
+}
+
+/*****Header*****/
+
+header{
+    background: url('Images/bg-header.jpg');
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.header-box .logo-header{
+    height: 15rem;
+    margin-bottom: 8rem
+}
+
+.header-box h1{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: white
+}
+
+.header-box ul{
+    display: flex;
+    justify-content: center
+}
+
+.header-box ul li{
+    list-style: none;
+    margin: 0 1.5rem;
+    font-size: 1.6rem;
+    margin-bottom: 7rem;
+}
+
+.header-box ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-box ul li a:hover{
+    color: #14A2B7;
+}
+
+.circle{
+    height: 10rem;
+    width: 10rem;
+    background-color: #343434cb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4rem
+}
+
+.circle img{
+    height: 6rem;
+    
+}
+
+.icons-list{
+    display: flex;
+    margin-bottom: 9rem
+}
+
+.mouse {
+    border: 3px solid white;
+    width: 18px;
+    margin: auto;
+    background-color: transparent;
+    height: 35px;
+    border-radius: 10px;
+}
+      
+  .wheel {
+    width: 1px;
+    height: 1px;
+    border: 2px solid white;
+    background-color: white;
+    position: relative;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -2px;
+    top: 7px; 
+    animation: scroll 1s infinite;
+  }
+    
+  @keyframes scroll {
+    0%   { top: 6px; opacity: 0;}
+    20% { opacity: 1; }
+    80% { opacity: 1;}
+    100% {top: 20px; opacity: 0;}
+  }
+
+  /*****Section1****/
+
+  .section1{
+    background: #e9eef9;
+    height: 30rem;
+  }
