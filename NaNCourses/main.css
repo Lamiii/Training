@@ -96,18 +96,151 @@ header{
     margin-left: -2px;
     top: 7px; 
     animation: scroll 1s infinite;
-  }
+}
     
   @keyframes scroll {
     0%   { top: 6px; opacity: 0;}
     20% { opacity: 1; }
     80% { opacity: 1;}
     100% {top: 20px; opacity: 0;}
-  }
+}
 
   /*****Section1****/
 
   .section1{
     background: #e9eef9;
     height: 30rem;
-  }
+}
+
+
+
+  /****Section2****/
+
+  .section2{
+      padding: 2rem 0;
+      background-color: #eee;
+}
+
+  .section2 .module-box a{
+    text-decoration: none;
+    color: #4d4d4d
+}
+
+/*.speciality-box:hover a:nth-child(even){
+    
+}
+
+.speciality-box:hover a:nth-child(odd){
+    color: #777FFE;
+}*/
+  .section2 h2{
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 8rem;
+}
+
+  .section2 .speciality{
+      display: flex;
+      justify-content: center;
+}
+
+  .section2 .card-speciality{
+      width: 55rem;
+      background-color: white;
+      margin: 1.5rem;
+      padding: 1rem
+}
+
+  .text-box{
+      display: flex;
+      align-items: center;
+      color: #777FFE;
+      margin-bottom: 2rem
+}
+
+  .icon-speciality{
+      height: 4rem;
+      margin-right: 1rem
+}
+
+  .card-speciality h3{
+      font-size: 2.5rem;
+      
+}
+
+  .module-box{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+}
+
+  .module-box img{
+      height: 7rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem
+}
+
+  .module-box h5{
+      font-size: 1.3rem;
+}
+
+  .module-box a h5:hover{
+    color: #777FFE
+}
+
+.module-box a img:hover{
+    color: #4d4d4d;
+    filter: grayscale(50%);
+}
+
+  .speciality-box{
+    margin: 0 1rem
+}
+
+.more a{
+    text-decoration: none;
+    float: right;
+    margin: 2rem 2rem .5rem 2rem;
+    font-size: 1.4rem;
+    color: #14A2B7
+}
+
+.more a:hover{
+    color: #4d4d4d
+}
+
+/*section3*/
+
+.section3{
+    height: 30rem;
+    width: 100%;
+    background-color: #777FFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center
+}
+
+.section3 h2{
+    font-size: 3.5rem;
+    margin-bottom: 2rem
+}
+
+.section3 h4{
+    font-size: 2.5rem;
+    margin-bottom: 2rem
+}
+
+.section3 button{
+    padding: 1rem 1.5rem;
+    background-color: #14A2B7;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer
+}
+
+.section3 button:hover{
+    box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.75);
+}
