@@ -77,6 +77,10 @@ header{
 }
 
 .mouse {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%);
     border: 3px solid white;
     width: 18px;
     margin: auto;
@@ -244,3 +248,85 @@ header{
 .section3 button:hover{
     box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.75);
 }
+
+/*****section4*****/
+
+.section4{
+    text-align: center;
+    padding: 4rem 1rem;
+    margin-bottom: 4rem;
+}
+
+.section4 h3{
+    color: #4d4d4d;
+    font-size: 3rem;
+    margin-bottom: 4rem
+}
+
+.section4 .icons{
+    display: flex;
+    justify-content: center;
+}
+
+.section4 img{
+    height: 7rem;
+    margin: 0 8rem;
+    transition: all .3s
+}
+
+.section4 h5{
+    font-size: 1.6rem
+}
+
+.section4 a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.icons .icon-img:hover{
+    transform: scale(1.1);
+    transition: all .3s
+}
+
+/*****FOOTER******/
+
+
+footer{
+    background: #0d0e1c;
+    color: #e2e4f5;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.s-ul_footer{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.s-ul_footer li{
+    list-style: none;
+    display: inline;
+    padding: 0 .7rem;
+}
+
+.s-ul_footer img{
+    height: 3.4rem;
+}
+
+footer h6{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+/**************Responsive******************/
+
+
